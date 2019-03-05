@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".endSessionActivity">
+
+    <TextView
+        android:id="@+id/act10Title"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="19dp"
+        android:text="@string/act10Title"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtThanks"
+        app:layout_constraintEnd_toEndOf="@+id/txtThanks"
+        app:layout_constraintStart_toStartOf="@+id/txtThanks"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtThanks"
+        android:layout_width="338dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="28dp"
+        android:text="@string/txtThanks"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/act10Title" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Pocket Market</string>
+    <string name="titleTxt">Pocket Market</string>
+    <string name="signUpTxt">Sign Up</string>
+    <string name="signInTxt">Sign In</string>
+    <string name="imageDescTxt">An Image</string>
+    <string name="joinTxt">Join Our Community Today</string>
+    <string name="alreadyTxt">or Already a member than Sign In</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="lastNameHint">Last Name</string>
+    <string name="emailHint">Email Address</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="apartmentHint">Address Line</string>
+    <string name="cityHint">City</string>
+    <string name="provinceHint">Province</string>
+    <string name="countryHint">Country</string>
+    <string name="postalHint">Postal Code</string>
+    <string name="registerTxt">Register</string>
+    <string name="termsCondTxt">I accept all the terms and conditions.*</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <string name="passwordHint">Password</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="searchTxt">Enter postal code to find stores near you</string>
+    <string name="findTxt">Find Stores</string>
+
+    <!-- arsh -->
+    <string name="act5Title">Stores near you</string>
+    <string name="act6Title">Particular Store</string>
+    <string name="btnCart">Add To Cart</string>
+    <string name="act7Title">Cart Details</string>
+    <string name="txtItems">List of Items added to cart</string>
+    <string name="act8Title">Your Order Details</string>
+    <string name="txtfinalOrder">Final Order Details</string>
+    <string name="radDelivery">Delivary</string>
+    <string name="radPickup">Pickup</string>
+    <string name="btnProceed">Proceed</string>
+    <string name="cbxInvitation">Invite to get discount</string>
+    <string name="act9Title">User Information</string>
+    <string name="act10Title">End</string>
+    <string name="txtThanks">Thankyou ! Your order has been placed</string>
+    <string-array name="ListOWalmart">
+        <item>Milk</item>
+        <item>Bread</item>
+        <item>Fruits</item>
+    </string-array>
+    <string name="txtItemsAdded">Items added to purchase</string>
+    <string name="btnEdit">Edit Order</string>
+    <string name="btnProcess">Process Order</string>
+</resources>
